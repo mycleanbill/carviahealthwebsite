@@ -19,11 +19,11 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Clean Bill: Organize, pay and identify savings in your medical bills</title>
-    <meta name="description" content="Clean Bill: Organize, pay and analyze your medical bills">
-    <meta name="author" content="MyCleanBill">
+    <title>Carvia Health: Healthcare Analytics Consulting</title>
+    <meta name="description" content="Carvia Health: Healthcare Analytics Consulting">
+    <meta name="author" content="CarviaHealth">
     <meta name="image" content="images/cleanbill.png">
-    <meta name="url" content="https://www.mycleanbill.com">
+    <meta name="url" content="https://www.carviahealth.com">
     <!-- mobile specific metas
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,6 +32,15 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+
+      <!-- Libraries CSS Files -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.theme.default.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/modal-video/css/modal-video.min.css" rel="stylesheet">
+
     <!-- script
     ================================================== -->
     <script src="js/modernizr.js"></script>
@@ -50,13 +59,13 @@
    <header id="header" class="row">   
 
    		<div class="header-logo">
-	        <a href="index.html">MyCleanBill</a>
+	        <a href="index.html">CarviaHealth</a>
 	    </div>
 
 	   	<nav id="header-nav-wrap">
 			<ul class="header-main-nav">
 				<li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                <li><a class="smoothscroll"  href="#download" title="aboutcleanbill">About Us</a></li>
+                <li><a class="smoothscroll"  href="#team" title="aboutcleanbill">About Us</a></li>
 				<!--<li><a class="smoothscroll"  href="#pricing" title="pricing">Pricing</a></li>-->
 				<!--<li><a class="smoothscroll"  href="#testimonials" title="testimonials">Testimonials</a></li>-->
 				<!-- <li><a class="smoothscroll"  href="#contact" title="Contactus">Contact Us</a></li> -->
@@ -72,7 +81,7 @@
 
    <!-- home
    ================================================== -->
-   <section id="home" data-parallax="scroll" data-image-src="images/doctorcleanbill.jfif" data-natural-width=2000 data-natural-height=1000>
+   <section id="home" data-parallax="scroll" data-image-src="images/banner_image.jpg" data-natural-width=2000 data-natural-height=1000>
 
         <div class="overlay"></div>
         <div class="home-content">        
@@ -80,11 +89,13 @@
             <div class="row contents">                     
                 <div class="home-content-left">
 
-                    <h3 data-aos="fade-up">Welcome to Clean Bill</h3>
+                    <h3 data-aos="fade-up">Welcome to Carvia Health Consulting</h3>
 
                     <h1 data-aos="fade-up">
-                        Organize and pay medical bills. Identify<br>
-                        savings. <br>
+                        Analytics, <br>
+                        Data Science and <br>
+                        Digital Health Consulting 
+                        <br>
                     </h1>
 
                     <!--<div class="buttons" data-aos="fade-up">
@@ -142,16 +153,17 @@
 
     <!-- about
     ================================================== -->
+    
     <section id="about">
 
         <div class="row about-intro">
 
             <div class="col-four">
-                <h1 class="intro-header" data-aos="fade-up">Stay on top of your medical bills</h1>
+                <h1 class="intro-header" data-aos="fade-up">Your trusted consulting partners</h1>
             </div>
             <div class="col-eight">
                 <p class="lead" data-aos="fade-up">
-                    Clean Bill is an easy to use website to help you organize and pay bills. It also helps identify savings
+                    With nearly 50 years of healthcare technology experience between the founders, Carvia Health offers unmatched consulting services in the following areas.
                 </p>
             </div>                       
             
@@ -163,14 +175,14 @@
 
                 <div class="bgrid feature" data-aos="fade-up">	
 
-                    <span class="icon"><i class="icon-invoice"></i></span>            
+                    <span class="icon"><i class="icon-bar-chart"></i></span>            
 
                     <div class="service-content">	
 
-                        <h3>Organize</h3>
+                        <h3>Analytics</h3>
 
                         <p>
-                            Organize your medical bills so you don't have to remember when they are due. Plan your bill payments in advance. 
+                            We offer services from data mart modeling to dashboard development using Tableau and PowerBI  
                         </p>
                         
                     </div> 	         	 
@@ -179,12 +191,12 @@
 
                 <div class="bgrid feature" data-aos="fade-up">	
 
-                        <span class="icon"><i class="icon-bank-note"></i></span>                          
+                        <span class="icon"><i class="icon-book"></i></span>                          
 
                         <div class="service-content">
-                            <h3>Pay </h3>
+                            <h3>Data Science & Engineering</h3>
                             <p>
-                                Pay your doctor, hospital and lab bills with the click of a button
+                                We develop data science algorithms for our clients using R and Python
                             </p>
 
                         </div>	                          
@@ -193,12 +205,12 @@
 
                 <div class="bgrid feature" data-aos="fade-up">
 
-                    <span class="icon"><i class="icon-dollar"></i></span>		            
+                    <span class="icon"><i class="icon-mobile"></i></span>		            
 
                     <div class="service-content">
-                        <h3>Save</h3>
+                        <h3>Digital Health</h3>
                         <p>
-                            Identify $$$ saving opportunities using our machine learning algorithms
+                            We undertake end to end development of Android and iPhone apps, leveraging FHIR standards for easy integration with your enterprise systems
                         </p>
 
                     </div> 	            	               
@@ -250,7 +262,7 @@
 
         </div> <!-- end about-features -->
 
-        <div class="row about-how">
+<!--         <div class="row about-how">
           
             <h1 class="intro-header" data-aos="fade-up">How Clean Bill Works?</h1>
 
@@ -286,9 +298,9 @@
                     </div>  
 
                 </div>           
-           </div> <!-- end about-how-content -->
+           </div> 
 
-        </div> <!-- end about-how -->
+        </div> --> <!-- end about-how -->
 
         <div class="row about-bottom-image">
 
@@ -310,9 +322,9 @@
 
         <div class="row">
             <div class="col-full">
-                <h1 class="intro-header"  data-aos="fade-up">Try It Today!</h1>
+                <h1 class="intro-header"  data-aos="fade-up">Contact Us!</h1>
 
-                <p class="lead" data-aos="fade-up">Contact us at mycleanbill@gmail.com to become an early adopter</p>
+                <p class="lead" data-aos="fade-up">Contact us at contactus@carviahealth.com </p>
       <!--           <ul class="download-badges">
                     <li><a href="https://play.google.com/store/apps/details?id=com.golobuy.customerapp&hl=en" title="" class="badge-googleplay" data-aos="fade-up">Google Play Store</a></li>
                 </ul> -->
@@ -322,6 +334,79 @@
 
     </section> <!-- end download -->    
 
+    <section id="team" class="padd-section text-center fadeInUp">
+
+        <div class="row">
+          <div  style="color: white; padding-top: 50px;" class="section-title text-center">
+    
+            <h2 style="color: white">About Us</h2>
+            <p class="separator">Carvia Health is a healthcare focused consulting company offering services in analytics, data science and digital health</p>
+    
+          </div>
+        </div>
+    
+        <div class="container">
+          <div class="row">
+    
+            <div class="col-md-6 col-md-4 col-lg-3">
+              <div class="team-block bottom">
+                <img style="width:300px;" src="images/team/krish.jpeg" class="img-responsive" alt="img">
+                <div class="team-content">
+                  <!-- <ul class="list-unstyled">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  </ul> -->
+                  <span style="color: white">Co-Founder</span>
+                  <h4  style="color: white">Krish Seetharaman</h4>
+                  <p class="separator">Krish is a techie by heart and has spent over 20 years building <br>
+                  cutting edge technology products, spending more than half of <br>
+                  his career in healthcare technology. Krish has a <br>
+                    Bachelor’s Degree in Instrumentation Engineering from Indian Institute of Technology, Kharagpur.</p>
+                </div>
+              </div>
+            </div>
+    
+           <div class="col-md-6 col-md-4 col-lg-3">
+              <div class="team-block bottom">
+                <img style="width:300px;"  src="images/team/parag.jpeg" class="img-responsive" alt="img">
+                <div class="team-content">
+                  <!-- <ul class="list-unstyled">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  </ul> -->
+                  <span  style="color: white">Co-Founder</span>
+                  <h4  style="color: white">Parag Patel</h4>
+                   <p class="separator">Parag practiced medicine as a pediatrician before pivoting into a career in healthcare technology <br>
+                  He is a Doctor of Medicine from Barakatullah University and  <br>
+                  is a Master of Hospital Administration from Tata Institute of Social Studies.</p>
+              
+                </div>  
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-6 col-md-4 col-lg-3">
+              <div class="team-block bottom">
+                <img  style="width:300px;" src="images/team/vijay.jpeg" class="img-responsive" alt="img">
+                <div class="team-content">
+                  <!-- <ul class="list-unstyled">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  </ul> -->
+                  <p class="separator">Vijay has spent nearly 20 years building healthcare technology solutions for health plans, providers and patients. <br>
+                  Vijay has a Bachelor’s Degree in Electrical Engineering from Utkal University  <br>
+                  and is currently pursuing a Master’s degree in Health Administration at University of Washington.</p>     
+                  <span  style="color: white">Co-Founder</span>
+                  <h4  style="color: white">Vijay Bhuttar</h4>
+                </div>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </section>
 
     <!-- footer
     ================================================== -->
@@ -333,12 +418,7 @@
                 <div class="col-three md-1-3 tab-full footer-info">            
 
                     <!-- <div class="footer-logo"></div> -->
-                    <h4>About Us</h4>
-
-                    <p>
-                        Clean Bill is a Redmond (home of Microsoft) based startup on a mission to simplify patient experience in dealing with US healthcare system
-                    </p>
-
+                    
                     <ul class="footer-social-list">
                 <!--         <li>
                             <a href="https://www.facebook.com/golobuy/"><i class="fa fa-facebook-square"></i></a>
@@ -364,13 +444,13 @@
 
                     <h4>Contact</h4>
 
-<!--                     <p>
+                    <p>
                     15446 Bel Red Road Ste#450 <br>
                     Redmond WA 98052<br>
                     </p>
- -->
+
                     <p>
-                    mycleanbill@gmail.com <br>
+                    contactus@carviahealth.com <br>
                     <!--Fax: (+63) 555 0100    -->
                     </p>                    
 
@@ -445,6 +525,8 @@
     <div id="preloader"> 
     	<div id="loader"></div>
     </div>  
+
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
     <!-- Java Script
     ================================================== -->
